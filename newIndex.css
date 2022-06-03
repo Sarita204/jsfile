@@ -1,0 +1,122 @@
+
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.header {
+    height: 65px;
+    border:1px solid red;
+    padding: 0;
+    width: 100%;
+    align-items: inherit;
+    background-color: #ffffff;
+
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin: 8.5px 8.5px;
+    padding: 0px 2px;
+    width: 9px;
+    font-size: smaller;
+    color: #888888;
+    -webkit-font-smoothing: antialiased;
+}
+.menubar {
+    background-color: #0cb572;
+    height: 30px;
+    width: 35px;
+    margin: 15px 0px 16px 16px;
+    color: #fff;
+    background-color: #1ab394;
+    border-color: #1ab394;
+}
+.search {
+    float: left;
+    height: 50px;
+    padding: 0;
+    width: 200px;
+    display: block;
+}
+
+.navbar-right {
+    margin-right: -15px;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+.search-items{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    font-size: 14px;
+    height: 60px;
+    margin: -44px 0px 3px 45px;
+    z-index: 2000;
+}
+.content {
+    display: flex;
+    float: right;
+    margin: -46px 218px 0px 1px;
+    font-size: 14px;
+    color: #888888 ;
+}
+.message-icon {
+        margin: -55px 150px 0px 0px;
+        display: flex;
+        float: right;
+    }
+    .label {
+        font-size: 10px;
+        background-color: #f8ac59;
+        color: #FFFFFF;
+        padding: 2px 4px 2px 4px;
+        margin:-2px 25px 25px -14px;
+    }
+    .label-primary {
+        font-size: 10px;
+        background-color: rgb(0, 158, 153);
+        color: #FFFFFF;
+    }
+    
+    .label-primary2 {
+        font-size: 10px;
+        color: white;
+        background-color: rgb(0, 158, 153);
+        padding: 2px 5px 2px 5px;
+        margin: -2px 138px 29px -11px;
+    
+    }
+    .notification {
+        margin: -55px -1px 0px 5px;
+        display: flex;
+        float: right;
+    }
+   
+    .signout {
+        display: flex;
+        float: right;
+        margin: -54px 103px 0px 5px;
+    }
+
+    .logout {
+        display: flex;
+        float: right;
+        margin: -45px 53px 0px 5px;
+    }
+    .controller {
+        display: flex;
+        float: right;
+        margin: -50px 14px 0px 5px;
+    }
+  
+
+
